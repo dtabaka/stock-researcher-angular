@@ -1,3 +1,13 @@
-a {
-    text-decoration: none;
+mat-form-field {
+  width: 75%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* optional but makes spacing nice */
+}
+
+button[mat-raised-button] {
+  align-self: flex-start; /* prevents full‑width stretching */
 }
